@@ -21,7 +21,7 @@ if uploaded_file is not None:
     base64_image = encode_image(uploaded_file)
 
     # Send request to AI model
-    url = "https://clothing-ai-api.onrender.com/analyze"  # Replace with your actual API endpoint
+    url = "https://clothing-ai-app.onrender.com/analyze"  # Replace with your actual API endpoint
     data = {"image": base64_image}
     
     try:
